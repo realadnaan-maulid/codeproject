@@ -7,16 +7,27 @@ const Tab3: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Tab 3</IonTitle>
+          <center>
+          <IonTitle>My Profile</IonTitle>
+          </center>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Tab 3</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <ExploreContainer name="Tab 3 page" />
+      <IonContent>
+        <div className='mycontainer'>
+          <div className='innerContainer'>
+
+            <div className='profile'>
+              <img src="user.png" height={145} width={148}/>
+
+              <h3>Code School</h3>
+              <h4>code.ionic.com</h4>
+
+            <button className='btn'>Followers</button>
+            <button className='btnlogout'>Logout</button>
+            </div>
+</div>
+
+        </div>
       </IonContent>
     </IonPage>
   );

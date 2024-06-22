@@ -1,4 +1,4 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonButton,IonButtons, IonContent, IonHeader, IonInput, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import ExploreContainer from '../components/ExploreContainer';
 import './Tab1.css';
 
@@ -7,19 +7,23 @@ const Tab1: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Tab 1</IonTitle>
+          <IonTitle>Home</IonTitle>
+         <IonButtons slot='end'>
+          <IonButton>Home</IonButton>
+          <IonButton>School</IonButton>
+          <IonButton>Profile</IonButton>
+
+          <IonInput name='search'
+            aria-label="Email" value="adnaan9659@gmail.com">
+          </IonInput>
+         </IonButtons>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Tab 1</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <ExploreContainer name="Tab 1 page" />
-      </IonContent>
+    <IonContent>
+   
+    </IonContent>
     </IonPage>
-  );
-};
+  )}
+
 
 export default Tab1;
