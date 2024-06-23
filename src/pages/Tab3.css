@@ -37,8 +37,9 @@ h3,h4{
     width: 60%;
     min-width: 400px;
     min-height: 600px;
-    float: left;
+    float: center;
     background-color: white;
+    margin: 0 auto;
     padding: 30px;
     justify-content: center;
 }

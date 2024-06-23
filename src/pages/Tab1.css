@@ -1,0 +1,52 @@
+.myhome{
+    background-color: white;
+    min-height: 500px;
+    width: 50%;
+    padding: 60px;
+    float: left;
+}
+.same{
+    background-color: white;
+    float: right;
+    min-height: 1000px;
+    width: 50%;
+    padding: 60px;
+    font-size: larger;
+}
+.h4{
+    color: blue;
+}
+p{
+    font-size: 15px;
+}
+.notsame{
+    float: left;
+    min-height: 1000px;
+    width: 50%;
+    padding: 60px;
+    color: black;
+    
+}
+.mybutton{
+    background: #3B4887!important;
+
+}
+.big{
+    padding: 30px;
+    width: 100%;
+    height: 500px!important;
+    min-width: 1200px;
+    justify-content: center;
+    background-color: #FAFAFA;
+    align-content: center;
+
+}
+.box{
+    width: 28%;
+    float: left;
+    margin: 1%;
+
+    min-height: 300px;
+    background-color: white;
+ 
+}

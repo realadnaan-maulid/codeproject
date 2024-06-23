@@ -1,0 +1,26 @@
+.h1{
+    font-size: 50px;
+    color: white;
+    background-color:blue;
+    float: left;
+    min-height: 700px;
+    width: 40%;
+    padding: 60px;
+}
+.h4{
+    color: white; 
+}
+.ritr{
+    color: black;
+    font-size: 20px;
+    padding: 60px!important;
+    float: left;
+    width: 50%;
+}
+.checkbox{
+    font-size: small;
+}
+.idk{
+    width: 50%;
+    color: blue;
+}
